@@ -1,0 +1,37 @@
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    font-style: italic;
+  }
+  
+  #tribute-info {
+    margin-top: 20px;
+  }
+  
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  img {
+    display: block;
+  }

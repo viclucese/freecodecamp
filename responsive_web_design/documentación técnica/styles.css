@@ -1,0 +1,64 @@
+/* Estilos básicos */
+body {
+    font-family: sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  main {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
+  /* Estilos para secciones */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    nav {
+      position: relative;
+      width: 100%;
+      height: auto;
+      bottom: 0;
+      padding: 10px;
+    }
+  
+    main {
+      margin-left: 0;
+    }
+  }
+  
+  .main-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .main-section header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      position: relative;
+      width: 100%;
+      height: auto;
+      bottom: 0;
+      padding: 10px;
+    }
+  
+    main {
+      margin-left: 0;
+    }
+  }
